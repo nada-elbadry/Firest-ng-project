@@ -1,0 +1,11 @@
+.form-control 
+{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    box-shadow: none;
+}
+section.contact-us button
+{
+    margin-right: 450px;
+}  
