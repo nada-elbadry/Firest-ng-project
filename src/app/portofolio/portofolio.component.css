@@ -1,4 +1,4 @@
-h2,.star{color: #2C3E50;}
+h2,i{color: #2C3E50;}
 .card .layer {
     top: 0;
     left: 0;
@@ -26,3 +26,4 @@ h2,.star{color: #2C3E50;}
     background-color: #2C3E50;
 
 }
+/* الصح ايه بدل الoverflow عشان الفوتر يتظبط */

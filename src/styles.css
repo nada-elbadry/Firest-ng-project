@@ -11,3 +11,52 @@ border-radius: 2px;
 background-color:white;
 }
 .star{margin-inline:5px;}
+section{height: 100vmin;}
+.mt {
+    margin-top: 0; 
+  }
+  @media (min-width: 1200px) {
+    .mt {
+      margin-top: 150px;
+    }
+  }
+  
+  .title h2
+{
+    text-align: center;
+color:#333333;
+font-size: 40px;
+font-weight: 800;
+position: relative;
+margin-bottom: 100px;
+padding-bottom: 10px;
+}
+.title h2::after
+{
+    content:'';
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    border-top: 1px solid #FF305B;
+    border-bottom: 1px solid #FF305B;
+    font-size: xx-small;
+}
+ .title h2::before
+{
+    content:'';
+    width: 200px;
+    height: 2px;
+    background-color: #FF305B;
+    position: absolute;
+    top:120%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.title {
+    width: 80%;
+    margin: auto;
+}

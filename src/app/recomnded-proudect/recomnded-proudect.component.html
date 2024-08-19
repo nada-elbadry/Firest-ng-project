@@ -1,0 +1,14 @@
+<section class="gallery py-5">
+    <div class="container">
+        <div class="row p-4 g-4">
+            <div class="title py-4">
+                <h2>Our products</h2>
+            </div>
+            @for (p of ProudectRecomended; track $index) {
+            <div class="col-md-4">
+                <app-card [p]="p"></app-card>
+            </div>
+            }
+        </div>
+    </div>
+</section>
